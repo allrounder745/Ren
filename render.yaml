@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ffmpeg-restream
+    env: bash
+    plan: free
+    buildCommand: ""
+    startCommand: bash start.sh
